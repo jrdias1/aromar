@@ -22,8 +22,8 @@ const heroVideos = ['/video-hero-1.mp4', '/video-hero-2.mp4', '/video-hero-3.mp4
 
 const features = [
   {
-    title: 'Velas Aromaticas',
-    description: 'Cera vegetal, pavio de algodao e fragrancias com memoria afetiva.',
+    title: 'Velas Aromáticas',
+    description: 'Cera vegetal, pavio de algodão e fragrâncias com memória afetiva.',
     icon: Sparkles,
   },
   {
@@ -33,7 +33,7 @@ const features = [
   },
   {
     title: 'Presentes Personalizados',
-    description: 'Etiquetas, caixas e combinacoes para eventos e momentos especiais.',
+    description: 'Etiquetas, caixas e combinações para eventos e momentos especiais.',
     icon: Heart,
   },
   {
@@ -45,16 +45,16 @@ const features = [
 
 const rituals = [
   {
-    title: 'Escolha a essencia',
-    text: 'Notas amadeiradas, florais ou citricas para cada humor do dia.',
+    title: 'Escolha a essência',
+    text: 'Notas amadeiradas, florais ou cítricas para cada humor do dia.',
   },
   {
     title: 'Acenda e desacelere',
     text: 'Um ritual simples para transformar o ambiente e o tempo.',
   },
   {
-    title: 'Deixe a memoria ficar',
-    text: 'Fragrancias que viram lembrancas e criam aconchego.',
+    title: 'Deixe a memória ficar',
+    text: 'Fragrâncias que viram lembranças e criam aconchego.',
   },
 ];
 
@@ -70,7 +70,7 @@ const gallery = [
 const testimonials = [
   {
     name: 'Ana Silva',
-    text: 'A qualidade e o cuidado em cada detalhe sao impecaveis. Minha casa mudou.',
+    text: 'A qualidade e o cuidado em cada detalhe são impecáveis. Minha casa mudou.',
     rating: 5,
   },
   {
@@ -80,7 +80,7 @@ const testimonials = [
   },
   {
     name: 'Carlos Mendes',
-    text: 'Entrega rapida, embalagem linda e fragrancias sofisticadas.',
+    text: 'Entrega rápida, embalagem linda e fragrâncias sofisticadas.',
     rating: 5,
   },
 ];
@@ -154,8 +154,8 @@ export default function Home() {
                   <br /> e criam memórias.
                 </h1>
                 <p className="mt-6 text-lg md:text-xl text-white/80 max-w-xl">
-                  Velas e fragrancias artesanais feitas com calma, afeto e uma
-                  estetica natural que transforma qualquer ambiente.
+                  Velas e fragrâncias artesanais feitas com calma, afeto e uma
+                  estética natural que transforma qualquer ambiente.
                 </p>
 
                 <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -179,7 +179,7 @@ export default function Home() {
                   {[
                     { label: 'Artesanal', value: '100%' },
                     { label: 'Ingredientes', value: 'Naturais' },
-                    { label: 'Cidade', value: 'Petropolis' },
+                    { label: 'Cidade', value: 'Petrópolis' },
                   ].map((item) => (
                     <div
                       key={item.label}
@@ -216,16 +216,16 @@ export default function Home() {
                   Sobre a marca
                 </p>
                 <h2 className="text-4xl md:text-5xl font-serif text-[color:var(--brand-charcoal)]">
-                  Criada com paixao e cuidado em cada detalhe
+                  Criada com paixão e cuidado em cada detalhe
                 </h2>
                 <p className="text-lg text-[color:var(--brand-charcoal)] opacity-80">
                   A Oficina Aromar nasce do desejo de oferecer um ritual de bem-estar
-                  completo. Cada produto e feito a mao, com ingredientes selecionados
-                  e um olhar estetico que combina natureza, elegancia e aconchego.
+                  completo. Cada produto é feito a mão, com ingredientes selecionados
+                  e um olhar estético que combina natureza, elegância e aconchego.
                 </p>
                 <p className="text-lg text-[color:var(--brand-charcoal)] opacity-80">
-                  Localizada no Shopping Center Pedro II, em Petropolis, a oficina
-                  recebe voce com um atendimento caloroso e um universo de aromas.
+                  Localizada no Shopping Center Pedro II, em Petrópolis, a oficina
+                  recebe você com um atendimento caloroso e um universo de aromas.
                 </p>
                 <a
                   href="https://wa.me/5524988154470"
@@ -265,15 +265,15 @@ export default function Home() {
             <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
               <div>
                 <p className="text-sm uppercase tracking-[0.35em] text-[color:var(--brand-sage)]">
-                  Colecao
+                  Coleção
                 </p>
                 <h2 className="text-4xl md:text-5xl font-serif text-[color:var(--brand-charcoal)]">
-                  Uma selecao para transformar o seu dia
+                  Uma seleção para transformar o seu dia
                 </h2>
               </div>
               <p className="max-w-xl text-[color:var(--brand-charcoal)] opacity-70 text-lg">
-                De velas a difusores, cada item e pensado para criar atmosferas
-                elegantes, acolhedoras e memoraveis.
+                De velas a difusores, cada item é pensado para criar atmosferas
+                elegantes, acolhedoras e memoráveis.
               </p>
             </div>
 
@@ -320,14 +320,14 @@ export default function Home() {
                 />
                 <div className="p-10 lg:p-12 bg-[rgba(245,241,237,0.6)]">
                   <div className="flex items-center gap-2 text-sm uppercase tracking-[0.35em] text-[color:var(--brand-sage)]">
-                    Colecao exclusiva
+                    Coleção exclusiva
                   </div>
                   <h3 className="mt-4 text-3xl font-serif text-[color:var(--brand-charcoal)]">
                     Um ritual para cada momento
                   </h3>
                   <p className="mt-4 text-[color:var(--brand-charcoal)] opacity-70">
-                    Linha completa com aromas florais, amadeirados e citricos. Uma
-                    curadoria que combina bem-estar, sofisticao e sensorialidade.
+                    Linha completa com aromas florais, amadeirados e cítricos. Uma
+                    curadoria que combina bem-estar, sofisticação e sensorialidade.
                   </p>
                   <a
                     href="https://wa.me/5524988154470"
@@ -335,7 +335,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="mt-6 inline-flex items-center gap-2 text-[color:var(--brand-terra)] font-semibold"
                   >
-                    Solicitar catalogo <ArrowRight className="w-4 h-4" />
+                    Solicitar catálogo <ArrowRight className="w-4 h-4" />
                   </a>
                 </div>
               </div>
@@ -360,7 +360,7 @@ export default function Home() {
                     Ritual sensorial
                   </p>
                   <h2 className="text-4xl md:text-5xl font-serif text-[color:var(--brand-charcoal)]">
-                    Pequenos gestos, grandes memorias
+                    Pequenos gestos, grandes memórias
                   </h2>
                 </div>
                 <div className="space-y-6">
@@ -565,7 +565,7 @@ export default function Home() {
                 Depoimentos
               </p>
               <h2 className="text-4xl md:text-5xl font-serif text-[color:var(--brand-charcoal)]">
-                Experiencias reais, sentimentos verdadeiros
+                Experiências reais, sentimentos verdadeiros
               </h2>
             </div>
 
@@ -628,7 +628,7 @@ export default function Home() {
               {[
                 {
                   title: 'Endereco',
-                  text: 'Rua do Imperador, 288, Quiosque 2 - Centro, Petropolis - RJ',
+                  text: 'Rua do Imperador, 288, Quiosque 2 - Centro, Petrópolis - RJ',
                   icon: MapPin,
                 },
                 {
