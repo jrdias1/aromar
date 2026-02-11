@@ -433,7 +433,7 @@ export default function Home() {
               >
                 <div className="rounded-[32px] overflow-hidden shadow-2xl">
                   <img
-                    src="/assets/como aproveitar ao maximo.jfif"
+                    src="/assets/como-aproveitar.jfif"
                     alt="Como aproveitar ao máximo sua vela"
                     className="w-full h-full object-cover"
                   />
