@@ -31,11 +31,10 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled
           ? 'bg-white/95 backdrop-blur-md shadow-lg'
           : 'bg-transparent'
-      }`}
+        }`}
     >
       <nav className="max-w-7xl mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
         {/* Logo */}
@@ -62,11 +61,10 @@ export default function Header() {
             <a
               key={link.label}
               href={link.href}
-              className={`text-sm font-semibold transition-all duration-300 relative group ${
-                isScrolled
+              className={`text-sm font-semibold transition-all duration-300 relative group ${isScrolled
                   ? 'text-[color:var(--brand-charcoal)]'
                   : 'text-white'
-              }`}
+                }`}
             >
               {link.label}
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[color:var(--brand-gold)] group-hover:w-full transition-all duration-300" />
@@ -80,11 +78,10 @@ export default function Header() {
             href="https://wa.me/5524988154470"
             target="_blank"
             rel="noopener noreferrer"
-            className={`px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 ${
-              isScrolled
+            className={`px-6 py-2 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 ${isScrolled
                 ? 'bg-[color:var(--brand-terra)] text-white hover:bg-[color:var(--brand-sage)]'
                 : 'border-2 border-white text-white hover:bg-white/20'
-            }`}
+              }`}
           >
             WhatsApp
           </a>
@@ -92,12 +89,12 @@ export default function Header() {
 
         {/* Mobile Menu Button */}
         <button
+          id="mobile-menu-button"
           onClick={() => setIsOpen(!isOpen)}
-          className={`md:hidden p-2 rounded-lg transition-all duration-300 ${
-            isScrolled
+          className={`md:hidden p-2 rounded-lg transition-all duration-300 ${isScrolled
               ? 'text-slate-900 hover:bg-slate-100'
               : 'text-white hover:bg-white/20'
-          }`}
+            }`}
         >
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
