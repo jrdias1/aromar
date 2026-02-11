@@ -150,8 +150,8 @@ export default function Home() {
                   Oficina Aromar
                 </div>
                 <h1 className="mt-6 text-5xl md:text-7xl font-serif text-white leading-tight">
-                  Aromas que <span className="text-[color:var(--brand-gold)]">acolhem</span>
-                  <br /> e criam memorias.
+                  Oficina Aromar: Aromas que <span className="text-[color:var(--brand-gold)]">acolhem</span>
+                  <br /> e criam memórias.
                 </h1>
                 <p className="mt-6 text-lg md:text-xl text-white/80 max-w-xl">
                   Velas e fragrancias artesanais feitas com calma, afeto e uma
@@ -250,7 +250,7 @@ export default function Home() {
                 <div className="rounded-[32px] overflow-hidden shadow-2xl border border-white/50">
                   <img
                     src={AMBIENTE_IMAGE}
-                    alt="Ambiente Oficina Aromar"
+                    alt="Interior da Oficina Aromar em Petrópolis, decorado com plantas e aromas premium"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   />
                 </div>
@@ -315,7 +315,7 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2">
                 <img
                   src={PRODUCTS_IMAGE}
-                  alt="Colecao Oficina Aromar"
+                  alt="Coleção exclusiva de velas artesanais e difusores de ambiente da Oficina Aromar"
                   className="h-full w-full object-cover"
                 />
                 <div className="p-10 lg:p-12 bg-[rgba(245,241,237,0.6)]">
@@ -402,7 +402,7 @@ export default function Home() {
                 <div className="rounded-[32px] overflow-hidden shadow-2xl">
                   <img
                     src={HERO_IMAGE}
-                    alt="Processo artesanal"
+                    alt="Processo artesanal de fabricação de velas na Oficina Aromar"
                     className="w-full h-full object-cover"
                   />
                 </div>
